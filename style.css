@@ -1169,6 +1169,18 @@ button:focus {
 		margin-left: 0px !important;
 		margin-top: 0px !important;
 	}
+	.date{
+		margin-left: 18px;
+	}
+	.head{
+		margin-top: 22px;
+		margin-left: 16px;
+		font-size: 19px;
+	}
+	.heads{
+		margin-left: 16px;
+		font-size: 19px;
+	}
 		
 }
 
@@ -1216,6 +1228,18 @@ button:focus {
 		margin-left: 0px !important;
 		margin-top: 0px !important;
 	}
+	.date{
+		margin-left: 18px;
+	}
+	.head{
+		margin-top: 22px;
+		margin-left: 16px;
+		font-size: 19px;
+	}
+	.heads{
+		margin-left: 16px;
+		font-size: 19px;
+	}
 	
 		
 }
@@ -1257,7 +1281,18 @@ button:focus {
 		margin-left: 0px !important;
 		margin-top: 0px !important;
 	}
-			
+	.date{
+		margin-left: 18px;
+	}
+	.head{
+		margin-top: 22px;
+		margin-left: 16px;
+		font-size: 19px;
+	}
+	.heads{
+		margin-left: 16px;
+		font-size: 19px;
+	}
 
 }
 
@@ -1340,7 +1375,18 @@ button:focus {
 		margin-left: 0px !important;
 		margin-top: 0px !important;
 	}		
-	
+	.date{
+		margin-left: 18px;
+	}
+	.head{
+		margin-top: 22px;
+		margin-left: 16px;
+		font-size: 19px;
+	}
+	.heads{
+		margin-left: 16px;
+		font-size: 19px;
+	}
 }
 
 
@@ -1486,4 +1532,14 @@ p {
     font-weight: 600;
     letter-spacing: 1px;
     transition: all 0.3s ease;
+}
+.date{
+	margin-left: 133px;
+}
+.head{
+	margin-top: 22px;
+	margin-left: 45px;
+}
+.heads{
+	margin-left: 126px;
 }
