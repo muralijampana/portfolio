@@ -1586,6 +1586,9 @@ p {
 #mu-about{
 	height: 707px;
 }
+#mu-contact{
+	height:707px;
+}
 /* Mobile-specific behavior for touch */
 @media (max-width: 850px) {
 	.zoom-image {
