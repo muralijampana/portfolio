@@ -1587,7 +1587,7 @@ p {
 	height: 697px;
 }
 /* Mobile-specific behavior for touch */
-@media (max-width: 768px) {
+@media (max-width: 850px) {
 	.zoom-image {
 		cursor: pointer;
 	}
@@ -1637,7 +1637,7 @@ p {
 		height: 0px !important;
 	}
 	.mu-featured-area{
-		height: 710px;
+		height: 700px;
 	}
 	.name{
 		margin-top: 70px !important;
