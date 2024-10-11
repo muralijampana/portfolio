@@ -1170,16 +1170,19 @@ button:focus {
 		margin-top: 0px !important;
 	}
 	.date{
-		margin-left: 18px;
+		margin-left: 18px !important;
 	}
 	.head{
-		margin-top: 22px;
-		margin-left: 16px;
-		font-size: 19px;
+		margin-top: 22px !important;
+		margin-left: 16px !important;
+		font-size: 19px !important;
 	}
 	.heads{
-		margin-left: 16px;
-		font-size: 19px;
+		margin-left: 63px !important;
+		font-size: 19px !important;
+	}
+	.zoom-image {
+		max-height: 200px; /* Reduce max height for smaller screens */
 	}
 		
 }
@@ -1237,8 +1240,11 @@ button:focus {
 		font-size: 19px;
 	}
 	.heads{
-		margin-left: 16px;
-		font-size: 19px;
+		margin-left: 63px !important;
+		font-size: 19px !important;
+	}
+	.zoom-image {
+		max-height: 200px; /* Reduce max height for smaller screens */
 	}
 	
 		
@@ -1282,16 +1288,19 @@ button:focus {
 		margin-top: 0px !important;
 	}
 	.date{
-		margin-left: 18px;
+		margin-left: 18px !important;
 	}
 	.head{
-		margin-top: 22px;
-		margin-left: 16px;
-		font-size: 19px;
+		margin-top: 22px !important;
+		margin-left: 16px !important;
+		font-size: 19px !important;
 	}
 	.heads{
-		margin-left: 16px;
-		font-size: 19px;
+		margin-left: 63px !important;
+		font-size: 19px !important;
+	}
+	.zoom-image {
+		max-height: 200px; /* Reduce max height for smaller screens */
 	}
 
 }
@@ -1376,16 +1385,19 @@ button:focus {
 		margin-top: 0px !important;
 	}		
 	.date{
-		margin-left: 18px;
+		margin-left: 18px !important;
 	}
 	.head{
-		margin-top: 22px;
-		margin-left: 16px;
-		font-size: 19px;
+		margin-top: 22px !important;
+		margin-left: 16px !important;
+		font-size: 19px !important;
 	}
 	.heads{
-		margin-left: 16px;
-		font-size: 19px;
+		margin-left: 63px !important;
+		font-size: 19px !important;
+	}
+	.zoom-image {
+		max-height: 200px; /* Reduce max height for smaller screens */
 	}
 }
 
@@ -1535,11 +1547,94 @@ p {
 }
 .date{
 	margin-left: 133px;
+	font-weight: bold;
 }
 .head{
-	margin-top: 22px;
-	margin-left: 45px;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 25px;
+	font-weight: bold;
 }
 .heads{
-	margin-left: 126px;
+	
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
 }
+.image.fit {
+	position: relative;
+	max-width: 100%; /* Ensure the container is responsive */
+}
+
+ /* Main zoom effect */
+ .zoom-image {
+	transition: transform 0.3s ease;
+	width: 100%; /* Full width for responsiveness */
+	height: auto;
+}
+
+/* Hover effect for desktop */
+.image.fit:hover .zoom-image {
+	transform: scale(1.1); /* Zoom effect on hover */
+}
+.about{
+	margin-top: 20px !important;
+}
+#mu-service{
+	height: 690px;
+}
+#mu-about{
+	height: 681px;
+}
+/* Mobile-specific behavior for touch */
+@media (max-width: 768px) {
+	.zoom-image {
+		cursor: pointer;
+	}
+
+	/* Apply zoom on touch */
+	.zoomed {
+		transform: scale(1.1); /* Slight zoom */
+		transition: transform 0.3s ease;
+	}
+	.mu-contact-top{
+		margin-top: -140px !important;
+	}
+	.resume{
+		margin-left: 54px !important;
+	}
+	.heads1{
+		margin-left: 23px !important;
+	}
+	.heads2{
+		margin-top: -8px !important;
+		margin-left:-3px !important;
+	}
+	.heads3{
+		margin-left: -2px !important;
+	}
+	.heads4{
+		margin-top:-5px !important;
+		margin-left: -2px !important;
+	}
+	.heads5{
+		margin-left: 19px !important;
+	}
+	.date1{
+		margin-left: 0px !important;
+		font-size: 10px !important;
+	}
+	.heads6{
+		margin-left: -2px !important;
+	}
+	.heads7{
+		margin-left: -6px !important;
+	}
+	#mu-service{
+		height: 0px !important;
+	}
+	#mu-about{
+		height: 0px !important;
+	}
+}
+
