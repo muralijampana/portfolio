@@ -1601,7 +1601,7 @@ p {
 		transition: transform 0.3s ease;
 	}
 	.mu-contact-top{
-		margin-top: -140px !important;
+		margin-top: -115px !important;
 	}
 	.resume{
 		margin-left: 54px !important;
@@ -1640,7 +1640,7 @@ p {
 		height: 965px !important;
 	}
 	.mu-featured-area{
-		height: 840px;
+		height: 845px;
 	}
 	.name{
 		margin-top: 200px !important;
