@@ -1636,5 +1636,14 @@ p {
 	#mu-about{
 		height: 0px !important;
 	}
+	.mu-featured-area{
+		height: 600px;
+	}
+	.name{
+		margin-top: 50px !important;
+	}
+	.headline{
+		margin-top: 50px;
+	}
 }
 
