@@ -1581,10 +1581,10 @@ p {
 	margin-top: 20px !important;
 }
 #mu-service{
-	height: 690px;
+	height: 697px;
 }
 #mu-about{
-	height: 681px;
+	height: 697px;
 }
 /* Mobile-specific behavior for touch */
 @media (max-width: 768px) {
